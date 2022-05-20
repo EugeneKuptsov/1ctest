@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91701f71-6646-43ac-99c7-83e48bebae1d">
+  <name>ТоварныеЗапасы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарные запасы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.ТипыЦен</content>
+  <content>AccumulationRegister.ТоварыНаСкладах</content>
+  <content>Document.ПеремещениеТоваров</content>
+</mdclass:Subsystem>

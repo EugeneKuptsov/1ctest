@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25dbdee9-6154-46b8-a998-c64987dd02a3">
+  <name>ЗапросыПрактическиеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профессиональная разработка запросов в 1С:Предприятие 8</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a40c9e8b-909b-41d4-9a71-ec072c29128c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7fdd4a3d-f86c-419e-8fd6-1fb5cbcff66c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3146574e-bfa0-4a0f-8472-31e0c1a44933"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="915a49ea-c136-4a53-bae0-71af99d25b40"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="cc7869d8-447f-4ddc-9d33-de0da96eece0"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="11e5666d-dac3-4bbc-9a08-7c54a6d6c3ca"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="502f7675-eeaa-4dbd-bb42-15da1e70944b"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>http://курсы-по-1с.рф/</vendor>
+  <version>1.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.9</compatibilityMode>
+  <languages uuid="7e51b54a-38ae-4f42-bf7c-af7e63efb387">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Запросы</subsystems>
+  <subsystems>Subsystem.КадровыйУчет</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.ТоварныеЗапасы</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ОграничениеПоАвтору</roles>
+  <roles>Role.ОграниченныйПросмотр</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбщийМодуль1</commonModules>
+  <exchangePlans>ExchangePlan.ПланОбмена</exchangePlans>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ЗначенияХарактеристик</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.РасчетныеСчета</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ТипыЦен</catalogs>
+  <documents>Document.ПеремещениеТоваров</documents>
+  <documents>Document.ПлатежноеПоручение</documents>
+  <documents>Document.ПоступлениеДенежныхСредств</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.Отчет1</reports>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.Обработка1</dataProcessors>
+  <dataProcessors>DataProcessor.СозданиеНоменклатуры</dataProcessors>
+  <dataProcessors>DataProcessor.УКО_УправляемаяКонсольОтчетов</dataProcessors>
+  <informationRegisters>InformationRegister.ЗначенияСвойствОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.КадроваяИстория</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКонтрагентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.Характеристики</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

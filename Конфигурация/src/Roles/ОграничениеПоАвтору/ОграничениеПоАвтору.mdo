@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2a1c186-6d13-44de-a824-e25a6dd59f27">
+  <name>ОграничениеПоАвтору</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничение по автору</value>
+  </synonym>
+</mdclass:Role>

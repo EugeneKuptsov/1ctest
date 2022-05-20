@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c94aada8-1cf8-4711-8792-4987c2604858">
+  <name>ОграниченныйПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограниченный просмотр</value>
+  </synonym>
+</mdclass:Role>

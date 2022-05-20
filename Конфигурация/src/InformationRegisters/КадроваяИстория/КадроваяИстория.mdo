@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95fafbc0-094c-4cf2-bc8d-dfb7016725ab">
+  <producedTypes>
+    <selectionType typeId="1bdc9d49-4d07-4115-aa5a-8c2ace013077" valueTypeId="b68bbf17-c370-455d-805f-6a56693d101e"/>
+    <listType typeId="e54b8df7-066b-4fe6-8297-739dd880de95" valueTypeId="f6e77363-4d1e-449d-babb-440316b9d42a"/>
+    <managerType typeId="925ff44b-80d2-4dac-a1a0-bb74caa7feef" valueTypeId="9104bac0-97e5-4a7e-837c-8b7eb8662831"/>
+    <recordSetType typeId="14de3d58-fd77-463a-b1e4-e0943a7902e4" valueTypeId="4122d36d-a8fd-4879-867b-3104738fbb07"/>
+    <recordKeyType typeId="dcec6d6a-b82e-47c8-b12e-caffbf5c5b3b" valueTypeId="51713069-2be7-4c15-acbb-8048e9be851c"/>
+    <recordType typeId="f77c7e18-9a10-43b5-a34c-177007df3881" valueTypeId="2e7ac4fc-ebef-45c1-97a1-7cf8ead2c712"/>
+    <recordManagerType typeId="079a22a2-af82-4943-8d40-40360eac1db1" valueTypeId="e6bd7e26-6c9a-455e-8aee-d1fa035a20a1"/>
+  </producedTypes>
+  <name>КадроваяИстория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровая история</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="28e78529-2cb4-4c16-a2f5-f02b8aeca754">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7e8e0f98-488b-4bad-9301-8ebb169724f0">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

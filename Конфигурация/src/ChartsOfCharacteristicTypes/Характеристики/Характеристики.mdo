@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cf1db6f-a56e-4418-9bda-b444ea0c8050">
+  <producedTypes>
+    <objectType typeId="dcb3715c-84f5-45a5-be33-1f29ad9b418c" valueTypeId="e5c54c97-adcd-42fe-934a-72a3d5b50b67"/>
+    <refType typeId="b409678d-88a4-4c30-8368-9bde7b2813aa" valueTypeId="07c7d38a-3c7a-4fad-87c6-0dbfd28f51d1"/>
+    <selectionType typeId="d170099a-b579-4a56-ad78-9661ad04ffd0" valueTypeId="8e3250c1-75b2-4c78-a068-ddaaf07ba7b6"/>
+    <listType typeId="759a4451-da51-48bb-a46e-de3b505583ea" valueTypeId="67f1b403-5f43-4b8b-b025-0cb0af8ef1c3"/>
+    <managerType typeId="dff5992f-c58f-437c-9cad-c33eecef43ee" valueTypeId="913d44b0-3b27-4510-89e5-034079a4d5fa"/>
+    <containerType typeId="b420b611-86de-485a-8302-efc1847ec1e7" valueTypeId="2cae9bce-7478-4149-89ac-d969ad903a61"/>
+  </producedTypes>
+  <name>Характеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.Характеристики.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.Характеристики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияХарактеристик</characteristicExtValues>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>CatalogRef.ЗначенияХарактеристик</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>
